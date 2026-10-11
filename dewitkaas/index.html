@@ -18,15 +18,22 @@ footer{background:var(--d);color:#ddd;padding:40px 6%;font-family:sans-serif;fon
 .badge{position:fixed;bottom:14px;right:14px;background:var(--g);padding:8px 14px;border-radius:20px;font:bold 12px sans-serif}
 </style></head><body>
 <header><b>Kaashandel De Wit</b><nav><a href="#bestellen">Bestellen</a><a href="#pakketten">Pakketten</a><a href="#bezoek">Bezoek ons</a></nav></header>
-<div class="hero"><h1>Al 65 jaar de kaasspeciaalzaak van Nijmegen</h1><p>Hollandse boeren-, kruiden- en geitenkaas en kazen uit heel Europa. Nu ook gewoon online bestellen en ophalen wanneer het u uitkomt.</p><a class="btn" href="#bestellen">Bestel online</a></div>
+<div class="hero"><h1>Al 65 jaar de kaasspeciaalzaak van Nijmegen</h1><p>Hollandse boeren-, kruiden- en geitenkaas en kazen uit heel Europa. Nu ook online bestellen en zelf uw ophaalmoment kiezen in onze agenda.</p><a class="btn" href="#bestellen">Bestel online</a></div>
 <section id="pakketten"><h2>Onze kaaspakketten</h2><div class="grid">
 <div class="card"><h3>Het Jodelpakket</h3><p>Een stevige selectie Alpenkazen.</p><div class="p">vanaf €</div><button>In winkelmand</button></div>
 <div class="card"><h3>Spanish Delight</h3><p>Manchego en andere Spaanse favorieten.</p><div class="p">vanaf €</div><button>In winkelmand</button></div>
 <div class="card"><h3>Le Moustache</h3><p>Het beste van de Franse kaasplank.</p><div class="p">vanaf €</div><button>In winkelmand</button></div>
 <div class="card"><h3>Hollandse klassiekers</h3><p>Boeren-, kruiden- en geitenkaas, vers gesneden.</p><div class="p">vanaf €</div><button>In winkelmand</button></div>
 </div></section>
-<section id="bestellen" class="alt"><h2>Bestellen en ophalen</h2><p style="margin-bottom:20px">Vóór 10:00 besteld? Dan ligt het vanaf 12:00 dezelfde dag voor u klaar.</p>
-<form onsubmit="alert('Dit is een preview van GWC Webdesign.');return false"><input placeholder="Naam" required><input type="email" placeholder="E-mailadres" required><select><option>Ophalen: ochtend</option><option>Ophalen: middag</option></select><button class="btn" style="border:0">Bestelling plaatsen</button></form></section>
+<section id="bestellen" class="alt"><h2>Bestellen en ophalen</h2><p style="margin-bottom:20px">Kies uw kaas en plan zelf in onze agenda een moment om uw bestelling op te halen.</p>
+<style>.days{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 16px}.days label,.slots label{cursor:pointer}.days input,.slots input{display:none}
+.days span{display:block;padding:10px 14px;border:1px solid #ccc;border-radius:10px;text-align:center;font-family:sans-serif;font-size:.9rem;background:#fff}
+.slots{display:grid;grid-template-columns:repeat(auto-fill,minmax(80px,1fr));gap:8px;margin:8px 0 16px}
+.slots span{display:block;padding:9px;border:1px solid #ccc;border-radius:8px;text-align:center;font-family:sans-serif;background:#fff}
+.slots .vol span{background:#eee;color:#aaa;text-decoration:line-through;cursor:not-allowed}
+input:checked+span{background:var(--d);color:#fff;border-color:var(--d)}</style>
+<form onsubmit="alert('Dit is een preview van GWC Webdesign.');return false" style="max-width:640px">
+<b>Kies een dag</b><div class="days"><label><input type="radio" name="dag" checked><span>Ma<br>13 okt</span></label><label><input type="radio" name="dag"><span>Di<br>14 okt</span></label><label><input type="radio" name="dag"><span>Wo<br>15 okt</span></label><label><input type="radio" name="dag"><span>Do<br>16 okt</span></label><label><input type="radio" name="dag"><span>Vr<br>17 okt</span></label><label><input type="radio" name="dag"><span>Za<br>18 okt</span></label></div><b>Kies een ophaaltijd</b><div class="slots"><label class=""><input type="radio" name="tijd"><span>09:00</span></label><label class="vol"><input type="radio" name="tijd" disabled><span>10:00</span></label><label class=""><input type="radio" name="tijd"><span>11:00</span></label><label class=""><input type="radio" name="tijd"><span>12:00</span></label><label class="vol"><input type="radio" name="tijd" disabled><span>13:00</span></label><label class=""><input type="radio" name="tijd"><span>14:00</span></label><label class=""><input type="radio" name="tijd"><span>15:00</span></label><label class=""><input type="radio" name="tijd"><span>16:00</span></label><label class=""><input type="radio" name="tijd"><span>17:00</span></label></div><div style="display:grid;gap:12px"><input placeholder="Naam" required><input type="email" placeholder="E-mailadres" required><button class="btn" style="border:0">Ophaalmoment bevestigen</button></div></form></section>
 <section id="bezoek"><h2>Bezoek ons</h2><div class="grid"><div class="card"><h3>Adres</h3><p>Lange Hezelstraat, hoek Houtstraat en Stikke Hezelstraat, Nijmegen. In de oudste winkelstraat van Nederland.</p></div>
 <div class="card"><h3>Openingstijden</h3><p>Ma t/m vr 8:30 – 18:00<br>Za 8:00 – 17:00</p></div><div class="card"><h3>Contact</h3><p>dewitkaasonline@gmail.com</p></div></div></section>
 <footer>© Kaashandel De Wit, Nijmegen</footer><div class="badge">Preview door GWC Webdesign</div>
