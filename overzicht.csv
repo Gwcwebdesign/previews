@@ -1,0 +1,23 @@
+bedrijf,slug,bestandspad,bron,opmerkingen
+Adindas Products Services,adindas,/workspace/previews/adindas/index.html,live site,"Site meldt dat golfgroothandel gestopt is; weinig tekst, plaats onbekend. Telefoon uit CSV."
+Peters Glas in Lood,petersglasinlood,/workspace/previews/petersglasinlood/index.html,live site,"Homepage bevat alleen lorem ipsum; geen echte bedrijfstekst beschikbaar, alleen contactgegevens en menu (Producten/Galerij). Over-ons-tekst moet door klant worden aangeleverd."
+MPH Koeriers,mphkoeriers,/workspace/previews/mphkoeriers/index.html,live site,Alleen via http/WebFetch bereikbaar (curl vanaf box faalde). Homepage toont achtergebleven AI-/editor-instructietekst; die is weggelaten.
+Knutselkoningin.nl,knutselkoningin,/workspace/previews/knutselkoningin/index.html,live site,Alleen via http/WebFetch bereikbaar. Geen adres/telefoon of prijzen op site.
+Hoveniersbedrijf Roffelsen,roffelsen,/workspace/previews/roffelsen/index.html,live site,Geen plaats/contactgegevens op site; /contact geeft 404.
+Van den Berg Schilders,bergschilders,/workspace/previews/bergschilders/index.html,live site,
+Richard Bakker Bouw,richardbakkerbouw,/workspace/previews/richardbakkerbouw/index.html,live site,"curl faalde (SSL), opgehaald via WebFetch."
+Uijtdewilligen Bouw-Adviesbureau,uijtdewilligen,/workspace/previews/uijtdewilligen/index.html,live site,"Homepage bevat vrijwel geen tekst (alleen projectfoto's); teksten minimaal, telefoon uit CSV."
+Kwaliteitsslagerij Graumans,slagerijgraumans,/workspace/previews/slagerijgraumans/index.html,live site,"Openingstijden niet op homepage (aparte pagina 'aangepaste openingstijden'), weggelaten."
+Klusbedrijf Pieter Afbouw,klusbedrijfpieter,/workspace/previews/klusbedrijfpieter/index.html,live site,E-mail uit CSV.
+Administratiekantoor de Wit,administratiekantoordewit,/workspace/previews/administratiekantoordewit/index.html,live site,
+Kroes Leidekkers,kroesleidekkers,/workspace/previews/kroesleidekkers/index.html,live site,curl kreeg bot-verificatie; via WebFetch opgehaald. Plaats onbekend.
+Glazenier Henk van Kooy,henkvankooy,/workspace/previews/henkvankooy/index.html,live site,"E-mail op oud demon.nl-domein (uit CSV), mogelijk niet meer werkend."
+Rijkenhuizen grondverzet,rijkenhuizen,/workspace/previews/rijkenhuizen/index.html,live site,
+Ruud Tonkes Glas en Timmerbedrijf,ruudtonkes,/workspace/previews/ruudtonkes/index.html,live site,Alleen via http/WebFetch bereikbaar.
+Vilder & Wijnands Elektrotechniek B.V.,vilder-wijnands,/workspace/previews/vilder-wijnands/index.html,live site,"Alleen via http/WebFetch; e-mail verborgen achter JS, weggelaten."
+Timmer- en onderhoudsbedrijf Minne Wassenaar,minnewassenaar,/workspace/previews/minnewassenaar/index.html,live site,Weinig tekst op homepage; telefoon uit CSV. Alleen via http/WebFetch.
+Wiljan's Wijnhuis,wiljanswijnhuis,/workspace/previews/wiljanswijnhuis/index.html,live site,Alleen via http/WebFetch.
+Minicamping Weideland,minicamping-weideland,/workspace/previews/minicamping-weideland/index.html,live site,Tarieven niet overgenomen; telefoon uit CSV.
+Garagebedrijf APK-Direct,apkdirect,/workspace/previews/apkdirect/index.html,live site,
+Te Boveldt Meubelmakerij & Interieurbouw,teboveldt,/workspace/previews/teboveldt/index.html,live site,"E-mail verborgen achter JS, weggelaten."
+Arjan van Vliet Hoveniersbedrijf,arjanvanvliet,/workspace/previews/arjanvanvliet/index.html,live site,Alleen via http/WebFetch.
