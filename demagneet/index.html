@@ -1,0 +1,32 @@
+<!DOCTYPE html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>De Magneet | Handwerkt u naar het zin!</title>
+<style>:root{--g:#f2c4a0;--d:#3b2f4a;--c:#fdf8f3;--a:#8b5a9a}
+*{box-sizing:border-box;margin:0}body{font-family:Georgia,serif;color:var(--d);background:var(--c);line-height:1.6}
+header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;padding:18px 6%;background:var(--d);color:#fff;position:sticky;top:0;z-index:5}
+header b{font-size:1.3rem}nav a{color:#fff;margin-left:18px;text-decoration:none;font-family:sans-serif;font-size:.95rem}
+.hero{padding:100px 6%;background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://images.unsplash.com/photo-1528578577235-b963df6db908?w=1600) center/cover;color:#fff}
+.hero h1{font-size:clamp(2rem,5vw,3.4rem);max-width:760px}.hero p{max-width:600px;margin:16px 0 28px;font-size:1.15rem}
+.btn{display:inline-block;background:var(--g);color:var(--d);padding:14px 26px;border-radius:30px;text-decoration:none;font-family:sans-serif;font-weight:bold;cursor:pointer}
+section{padding:70px 6%}h2{font-size:2rem;margin-bottom:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.card{background:#fff;border-radius:14px;padding:24px;box-shadow:0 4px 18px rgba(0,0,0,.07)}
+.card h3{margin-bottom:6px}.card .p{font-family:sans-serif;color:var(--a);font-weight:bold;margin:8px 0}
+.card button{background:var(--d);color:#fff;border:0;padding:10px 18px;border-radius:20px;cursor:pointer}
+.alt{background:#fff}form{display:grid;gap:12px;max-width:640px}input,select,textarea{padding:12px;border:1px solid #ccc;border-radius:8px;font-size:1rem;font-family:sans-serif}
+.days{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 16px}.days label,.slots label{cursor:pointer}.days input,.slots input{display:none}
+.days span{display:block;padding:10px 14px;border:1px solid #ccc;border-radius:10px;text-align:center;font-family:sans-serif;font-size:.9rem;background:#fff}
+.slots{display:grid;grid-template-columns:repeat(auto-fill,minmax(80px,1fr));gap:8px;margin:8px 0 16px}
+.slots span{display:block;padding:9px;border:1px solid #ccc;border-radius:8px;text-align:center;font-family:sans-serif;background:#fff}
+.slots .vol span{background:#eee;color:#aaa;text-decoration:line-through;cursor:not-allowed}
+input:checked+span{background:var(--d);color:#fff;border-color:var(--d)}
+footer{background:var(--d);color:#ddd;padding:40px 6%;font-family:sans-serif;font-size:.9rem}
+.badge{position:fixed;bottom:14px;right:14px;background:var(--g);color:var(--d);padding:8px 14px;border-radius:20px;font:bold 12px sans-serif;z-index:9}
+@media(max-width:600px){nav a{margin:0 12px 0 0}.hero{padding:70px 6%}section{padding:50px 6%}}</style></head><body>
+<header><b>De Magneet</b><nav><a href="#assortiment">Assortiment</a><a href="#bestellen">Afhalen</a><a href="#bezoek">Bezoek ons</a></nav></header>
+<div class="hero"><h1>Handwerkt u naar het zin!</h1><p>Al jaren het vertrouwde adres in Kampen en IJsselmuiden voor naai-, brei- en haakbenodigdheden. Bestel nu online en haal op in de winkel.</p><a class="btn" href="#assortiment">Bestel en haal af</a></div>
+<section id="assortiment"><h2>Ons assortiment</h2><div class="grid"><div class="card"><h3>Naaimachines</h3><p>Naaimachines, lockmachines en de coverstitch.</p><div class="p">vanaf €</div><button>In winkelmand</button></div><div class="card"><h3>Stoffen</h3><p>Zorgvuldig gekozen modestoffen.</p><div class="p">vanaf €</div><button>In winkelmand</button></div><div class="card"><h3>Fournituren</h3><p>Garen, knopen, ritsen en naaibenodigdheden.</p><div class="p">vanaf €</div><button>In winkelmand</button></div><div class="card"><h3>Breien &amp; haken</h3><p>Wol &amp; benodigdheden, nieuw: Novita wol en patronen.</p><div class="p">vanaf €</div><button>In winkelmand</button></div></div></section>
+
+<section id="bestellen" class="alt"><h2>Afhalen in de winkel</h2><p style="margin-bottom:20px">Kies een dag en tijd om uw bestelling op te halen aan de Dorpsweg.</p><form onsubmit="alert('Dit is een preview van GWC Webdesign.');return false"><b>Kies een dag</b><div class="days"><label><input type="radio" name="dag" checked><span>Di<br>13 okt</span></label><label><input type="radio" name="dag"><span>Wo<br>14 okt</span></label><label><input type="radio" name="dag"><span>Do<br>15 okt</span></label><label><input type="radio" name="dag"><span>Vr<br>16 okt</span></label><label><input type="radio" name="dag"><span>Za<br>17 okt</span></label></div><b>Kies een ophaaltijd</b><div class="slots"><label><input type="radio" name="tijd"><span>09:00</span></label><label class="vol"><input type="radio" name="tijd" disabled><span>10:00</span></label><label><input type="radio" name="tijd"><span>11:00</span></label><label><input type="radio" name="tijd"><span>12:00</span></label><label><input type="radio" name="tijd"><span>13:30</span></label><label class="vol"><input type="radio" name="tijd" disabled><span>14:30</span></label><label><input type="radio" name="tijd"><span>15:30</span></label><label><input type="radio" name="tijd"><span>16:30</span></label></div><div style="display:grid;gap:12px"><input placeholder="Naam" required><input type="email" placeholder="E-mailadres" required><input type="tel" placeholder="Telefoonnummer"><button class="btn" style="border:0">Ophaalmoment bevestigen</button></div></form></section>
+<section id="bezoek"><h2>Bezoek ons</h2><div class="grid"><div class="card"><h3>Adres</h3><p>Dorpsweg 56, 8271 BN IJsselmuiden (nabij Kampen) — parkeren voor de deur</p></div><div class="card"><h3>Openingstijden</h3><p>Ma gesloten<br>Di, do, vr 09:00 – 12:30 / 13:30 – 17:00<br>Wo 13:30 – 17:00<br>Za 09:30 – 12:30<br>Zo gesloten</p></div><div class="card"><h3>Contact</h3><p>038-3313346 (ook WhatsApp)<br>info@de-magneet.nl</p></div></div></section>
+<footer>© De Magneet, IJsselmuiden</footer><div class="badge">Preview door GWC Webdesign</div>
+</body></html>

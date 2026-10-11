@@ -21,3 +21,22 @@ Minicamping Weideland,minicamping-weideland,/workspace/previews/minicamping-weid
 Garagebedrijf APK-Direct,apkdirect,/workspace/previews/apkdirect/index.html,live site,
 Te Boveldt Meubelmakerij & Interieurbouw,teboveldt,/workspace/previews/teboveldt/index.html,live site,"E-mail verborgen achter JS, weggelaten."
 Arjan van Vliet Hoveniersbedrijf,arjanvanvliet,/workspace/previews/arjanvanvliet/index.html,live site,Alleen via http/WebFetch.
+Veluwse Kaasboer,veluwsekaasboer,/workspace/previews/veluwsekaasboer/index.html,live site,"Geen e-mail/adres op site; bezorgtijdvakken (ochtend/middag) zijn voorbeeld, site noemt geen tijden."
+Gastrovino Leiden,gastrovino,/workspace/previews/gastrovino/index.html,live site,Bezorgoptie toegevoegd conform verbeterpunt; site noemt alleen afhalen.
+Wijnhandel Jos van Balen,josvanbalen,/workspace/previews/josvanbalen/index.html,live site,Site noemt twee sluitingstijden (17:00 en 18:00); 17:00 aangehouden.
+De Fietskamer,defietskamer,/workspace/previews/defietskamer/index.html,live site,"Site is JS-only; gegevens uit structured data/meta. Geen accessoire-assortiment op site, alleen merken getoond."
+Flowers by Miranda,flowersbymiranda,/workspace/previews/flowersbymiranda/index.html,live site,"Geen straatadres op site, alleen 'serrehal van het AZM'. Weekendslots vallen deels buiten openingstijd (15-19)."
+De Bloemist,bloemistgoes,/workspace/previews/bloemistgoes/index.html,live site,Weinig productinformatie op site (alleen categorieën).
+Bloemenhuis Abrahamse,abrahamse,/workspace/previews/abrahamse/index.html,live site,Site toont zowel 'Axelstraat' als 'Axelsestraat 66'; laatste (footer) gebruikt.
+Hofstede Optiek,hofstedeoptiek,/workspace/previews/hofstedeoptiek/index.html,live site,"Winkel zit in Bergen (NH), niet Alkmaar zoals in CSV. Openingstijden niet op homepage; dagen/slots in agenda zijn aanname."
+Wals Optiek,walsoptiek,/workspace/previews/walsoptiek/index.html,live site,"Openingstijden op site slecht uitgelijnd; geïnterpreteerd als ma gesloten, di-vr 9.30-17.30, za 9.30-17.00. Site heeft al 'Afspraak maken'-pagina en WooCommerce-'Mijn account'."
+De Oogkamer,oogkamer,/workspace/previews/oogkamer/index.html,live site,
+De Lijstenbakkerij,lijstenbakkerij,/workspace/previews/lijstenbakkerij/index.html,live site,"Dienstverlening: geen 'vanaf €', knop 'Offerte aanvragen'."
+Edelsmid Atelier Ruth,edelsmidruth,/workspace/previews/edelsmidruth/index.html,live site,Site meldt di 13 & wo 14 okt gesloten; agenda toont die dagen nog (preview).
+Schoen & Sleutel Punt,schoenensleutel,/workspace/previews/schoenensleutel/index.html,live site,Geen e-mail op site.
+AS Luchies,asluchies,/workspace/previews/asluchies/index.html,live site,"Geen straatadres op homepage. Header zegt 'Ma-Vr 9-18', tabel ma gesloten; tabel aangehouden. Site heeft al productpagina's (geen winkelwagen)."
+Antiekhandel Jan Rijsdijk,rijsdijkantiek,/workspace/previews/rijsdijkantiek/index.html,live site,"E-mail op site verborgen (Cloudflare), weggelaten. Zondag alleen 1e zondag v/d maand. Geen concrete catalogusstukken; categorieën gebruikt."
+De Magneet,demagneet,/workspace/previews/demagneet/index.html,live site,Site: 'wij nemen op dit moment geen naaiwerk aan'. Agenda-slots vallen voor wo/za deels buiten openingstijd.
+Bikeshop Leeuwarden,bikeshopleeuwarden,/workspace/previews/bikeshopleeuwarden/index.html,live site,Geen accessoires op site; fietsen op voorraad als producten getoond.
+Pianova,pianova,/workspace/previews/pianova/index.html,live site,Site toont wel prijzen; volgens opdracht niet overgenomen ('vanaf €'). Accessoire-assortiment niet gespecificeerd op site. Reviews niet overgenomen.
+'t Winkeltje van Kampen,winkeltjevankampen,/workspace/previews/winkeltjevankampen/index.html,live site,Site noemt ook 06-27035736; winkelnummer gebruikt. Site draait WooCommerce maar zonder zichtbare bestelfunctie.
