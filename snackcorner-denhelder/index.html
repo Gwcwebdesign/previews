@@ -1,0 +1,31 @@
+<!DOCTYPE html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Snackbar De Snackcorner | Snackbar in Den Helder</title>
+<style>
+:root{--g:#ffc72c;--d:#7a1712;--c:#fff8ec}
+*{box-sizing:border-box;margin:0}body{font-family:Georgia,serif;color:var(--d);background:var(--c);line-height:1.6}
+header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;padding:18px 6%;background:var(--d);color:#fff;position:sticky;top:0;z-index:5}
+header b{font-size:1.2rem}nav a{color:#fff;margin-left:18px;text-decoration:none;font-family:sans-serif;font-size:.95rem}
+.hero{padding:110px 6%;background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url(https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=1600) center/cover;color:#fff}
+.hero small{font-family:sans-serif;text-transform:uppercase;letter-spacing:2px;color:var(--g)}
+.hero h1{font-size:clamp(2rem,5vw,3.4rem);max-width:760px}.hero p{max-width:560px;margin:16px 0 28px;font-size:1.15rem}
+.btn{display:inline-block;background:var(--g);color:var(--d);padding:14px 26px;border-radius:30px;text-decoration:none;font-family:sans-serif;font-weight:bold;border:0;cursor:pointer;font-size:1rem}
+section{padding:70px 6%}h2{font-size:2rem;margin-bottom:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.card{background:#fff;border-radius:14px;padding:24px;box-shadow:0 4px 18px rgba(0,0,0,.07)}.card h3{margin-bottom:6px}
+.alt{background:#fff}form{display:grid;gap:12px;max-width:560px}input,select,textarea{padding:12px;border:1px solid #ccc;border-radius:8px;font-size:1rem;font-family:sans-serif;width:100%}
+.card a{color:inherit}
+footer{background:var(--d);color:#ddd;padding:40px 6%;font-family:sans-serif;font-size:.9rem}
+.badge{position:fixed;bottom:14px;right:14px;background:var(--g);color:var(--d);padding:8px 14px;border-radius:20px;font:bold 12px sans-serif;z-index:10}
+@media(max-width:600px){nav a{margin:0 14px 0 0}.hero{padding:80px 6%}section{padding:50px 6%}}
+</style></head><body>
+<header><b>Snackbar De Snackcorner</b><nav><a href="#aanbod">Menu</a><a href="#formulier">Bestellen</a><a href="#contact">Contact</a></nav></header>
+<div class="hero"><small>Snackbar · Den Helder</small><h1>Snackbar De Snackcorner</h1><p>Uw snackbar aan de Van Galenstraat in Den Helder. Bekijk ons menu en bestel direct om af te halen.</p><a class="btn" href="#formulier">Bestel en haal af</a></div>
+<section id="aanbod"><h2>Ons menu</h2><div class="grid"><div class="card"><h3>Friet</h3><p>Vers gebakken friet, met de saus van uw keuze.</p></div><div class="card"><h3>Snacks</h3><p>De bekende frituursnacks uit de snackbar.</p></div><div class="card"><h3>Burgers & broodjes</h3><p>Warme broodjes en burgers.</p></div><div class="card"><h3>Dranken</h3><p>Frisdranken bij uw bestelling.</p></div></div></section>
+<section id="formulier" class="alt"><h2>Bestellen voor afhalen</h2><p style="margin-bottom:20px">Geef uw bestelling door en kies een afhaaltijd. Wij zetten het voor u klaar.</p>
+<form onsubmit="alert('Dit is een preview van GWC Webdesign.');return false"><input placeholder="Naam" required><input type="tel" placeholder="Telefoonnummer" required><textarea rows="4" placeholder="Uw bestelling" required></textarea><input type="time" required><button class="btn">Bestelling plaatsen</button></form></section>
+<section id="contact"><h2>Contact</h2><div class="grid">
+<div class="card"><h3>Adres</h3><p>Van Galenstraat 78, 1782 EX<br>Den Helder</p></div>
+<div class="card"><h3>Telefoon</h3><p><a href="tel:0223617919">0223-617919</a></p></div>
+<div class="card"><h3>E-mail</h3><p><a href="mailto:pnutsie@hotmail.com">pnutsie@hotmail.com</a></p></div></div></section>
+<footer>© Snackbar De Snackcorner, Den Helder</footer><div class="badge">Preview door GWC Webdesign</div>
+</body></html>
