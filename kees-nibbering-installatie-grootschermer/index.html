@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kees Nibbering Installatie | Elektrotechniek en verlichting</title>
+<style>:root{--d:#1b1f2b;--a:#f5c518;--c:#f7f7f5}
+*{box-sizing:border-box;margin:0}body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#222;background:var(--c);line-height:1.6}
+header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;padding:16px 6%;background:var(--d);color:#fff;position:sticky;top:0;z-index:5}
+header b{font-size:1.2rem}nav a{color:#fff;margin-left:18px;text-decoration:none;font-size:.95rem}
+.hero{padding:110px 6%;background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url(https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1600&q=70) center/cover;color:#fff}
+.hero h1{font-size:clamp(2rem,5vw,3.3rem);max-width:780px;line-height:1.15}.hero p{max-width:620px;margin:18px 0 28px;font-size:1.15rem}
+.btn{display:inline-block;background:var(--a);color:#111;padding:14px 26px;border-radius:30px;text-decoration:none;font-weight:700;border:0;cursor:pointer;font-size:1rem}
+.btn.o{background:transparent;color:#fff;border:2px solid #fff;margin-left:10px}
+section{padding:70px 6%}h2{font-size:2rem;margin-bottom:22px;color:var(--d)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px}
+.card{background:#fff;border-radius:14px;padding:24px;box-shadow:0 4px 18px rgba(0,0,0,.07);border-top:4px solid var(--a)}.card h3{margin-bottom:6px;color:var(--d)}
+.alt{background:#fff}.about{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:36px;align-items:start}
+.about ul{padding-left:20px}.about li{margin:6px 0}
+.days{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px;margin:8px 0 16px}.days label,.slots label{cursor:pointer}.days input,.slots input{display:none}
+.days span{display:block;min-width:74px;padding:10px 12px;border:1px solid #ccc;border-radius:10px;text-align:center;font-size:.9rem;background:#fff}
+.slots{display:grid;grid-template-columns:repeat(auto-fill,minmax(86px,1fr));gap:8px;margin:8px 0 16px}
+.slots span{display:block;padding:9px;border:1px solid #ccc;border-radius:8px;text-align:center;background:#fff}
+.slots .vol span{background:#eee;color:#aaa;text-decoration:line-through;cursor:not-allowed}
+input:checked+span{background:var(--d);color:#fff;border-color:var(--d)}
+form{display:grid;gap:12px;max-width:680px}input,select,textarea{padding:12px;border:1px solid #ccc;border-radius:8px;font-size:1rem;font-family:inherit}
+.ok{display:none;background:#e8f6ea;border:1px solid #7cc48a;padding:16px;border-radius:10px;max-width:680px}
+.note{font-size:.85rem;color:#666}
+footer{background:var(--d);color:#ddd;padding:40px 6%;font-size:.9rem}footer a{color:#fff}
+.badge{position:fixed;bottom:14px;right:14px;background:var(--a);color:#111;padding:8px 14px;border-radius:20px;font:bold 12px sans-serif;z-index:9}
+@media(max-width:600px){nav a{margin:0 12px 0 0}.hero{padding:70px 6%}section{padding:50px 6%}.btn.o{margin:10px 0 0}}</style></head><body>
+<header><b>Kees Nibbering Installatie</b><nav><a href="#diensten">Diensten</a><a href="#over">Over ons</a><a href="#afspraak">Afspraak</a><a href="#contact">Contact</a></nav></header>
+<div class="hero"><h1>Eerlijk advies over verlichting, elektra en zonnepanelen</h1><p>Een eerlijk advies over wat wel en niet kan, en een heldere visie op verlichting.</p><a class="btn" href="#afspraak">Plan een afspraak</a><a class="btn o" href="tel:0642842853">Bel 06 428 428 53</a></div>
+<section id="diensten"><h2>Onze diensten</h2><div class="grid"><div class="card"><h3>Elektrotechniek</h3><p>Vakkundig elektrawerk.</p></div><div class="card"><h3>Verlichting &amp; noodverlichting</h3><p>Inclusief tritium vluchtwegverlichting.</p></div><div class="card"><h3>Zonnepanelen</h3><p>Een duidelijk gesprek en installatie.</p></div><div class="card"><h3>Laadpalen</h3><p>Ohme laadpalen.</p></div><div class="card"><h3>Gevelreclame &amp; kabelgoot</h3><p>Montage van gevelreclame en kabelgoten.</p></div></div></section>
+<section id="over" class="alt"><div class="about"><div><h2>Over Kees Nibbering</h2><p>Kees Nibbering staat voor een eerlijk advies over verlichting, noodverlichting, elektrotechniek en zonnepanelen. Als ik iets voor u kan doen, neemt u dan contact met mij op.</p></div><div><h2>Waarom kiezen voor ons</h2><ul><li>Eerlijk advies</li><li>Heldere visie op verlichting</li><li>Breed pakket van elektra tot laadpalen</li></ul></div></div></section>
+
+<section id="afspraak"><h2>Plan een afspraak</h2><p style="margin-bottom:18px">Kies een dag en tijd voor een vrijblijvend kennismakingsgesprek, inspectie of offerte op locatie.</p>
+<form id="bk"><b>Kies een dag</b><div class="days" id="days"></div><b>Kies een tijd</b><div class="slots" id="slots"></div>
+<select required><option value="">Waarvoor wilt u een afspraak?</option><option>Elektrotechniek</option><option>Verlichting &amp; noodverlichting</option><option>Zonnepanelen</option><option>Laadpalen</option><option>Gevelreclame &amp; kabelgoot</option><option>Anders / advies</option></select>
+<textarea placeholder="Korte omschrijving van de klus" rows="3"></textarea><input placeholder="Naam" required><input placeholder="Adres en plaats"><input type="email" placeholder="E-mailadres" required><input type="tel" placeholder="Telefoonnummer">
+<button class="btn">Afspraak aanvragen</button><p class="note">Demo-agenda: dit is een preview, er wordt nog niets verstuurd.</p></form>
+<div class="ok" id="ok"><b>Bedankt voor uw aanvraag!</b><p id="okt"></p><p class="note">(Preview door GWC Webdesign: in de echte site komt deze aanvraag direct bij Kees Nibbering binnen.)</p></div></section>
+<section id="contact" class="alt"><h2>Contact</h2><div class="grid"><div class="card"><h3>Bellen</h3><p><a href="tel:0642842853">06 428 428 53</a></p></div><div class="card"><h3>E-mail</h3><p><a href="mailto:info@keesnibbering.nl">info@keesnibbering.nl</a></p></div><div class="card"><h3>Adres</h3><p>Noordeinde 13, 1843 JH Grootschermer</p></div></div></section>
+<footer>© Kees Nibbering Installatie · Grootschermer</footer><div class="badge">Preview door GWC Webdesign</div>
+<script>(function(){var D=['Zo','Ma','Di','Wo','Do','Vr','Za'],M=['jan','feb','mrt','apr','mei','jun','jul','aug','sep','okt','nov','dec'],d=new Date(),n=0,h='';while(n<10){d.setDate(d.getDate()+1);if(d.getDay()==0||d.getDay()==6)continue;h+='<label><input type="radio" name="dag" value="'+D[d.getDay()]+' '+d.getDate()+' '+M[d.getMonth()]+'"'+(n?'':' checked')+'><span>'+D[d.getDay()]+'<br>'+d.getDate()+' '+M[d.getMonth()]+'</span></label>';n++}document.getElementById('days').innerHTML=h;
+var T=['08:00','09:00','10:00','11:00','13:00','14:00','15:00','16:00'];function s(i){var o='';T.forEach(function(t,j){var v=(i*3+j*5)%7==0;o+='<label'+(v?' class="vol"':'')+'><input type="radio" name="tijd" value="'+t+'"'+(v?' disabled':'')+'><span>'+t+'</span></label>'});document.getElementById('slots').innerHTML=o}s(0);
+document.querySelectorAll('[name=dag]').forEach(function(e,i){e.onchange=function(){s(i+1)}});
+document.getElementById('bk').onsubmit=function(e){e.preventDefault();var g=document.querySelector('[name=dag]:checked'),t=document.querySelector('[name=tijd]:checked');document.getElementById('okt').textContent='Uw voorkeur: '+(g?g.value:'')+(t?' om '+t.value:'')+'. We nemen zo snel mogelijk contact met u op om de afspraak te bevestigen.';this.style.display='none';document.getElementById('ok').style.display='block'}})();</script>
+</body></html>
