@@ -294,3 +294,4 @@ Hoekstra Autoservice: https://gwcwebdesign.github.io/previews/hoekstra-autoservi
 Loodgietersbedrijf Kok: https://gwcwebdesign.github.io/previews/loodgietersbedrijf-kok-amersfoort/
 Bouwbedrijf Weroba: https://gwcwebdesign.github.io/previews/bouwbedrijf-weroba-nieuwegein/
 D-lectric: https://gwcwebdesign.github.io/previews/d-lectric-zoetermeer/
+Picasso Schilder: https://gwcwebdesign.github.io/previews/picasso-schilder-havelte/
